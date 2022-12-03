@@ -269,7 +269,7 @@ namespace PowerupConfig
 
             betterChances = Config.Bind("general", "betterChances", false, 
                 "Should values scale when chances go over 100? for example if you have 140% crit chance you have 100% chance to deal 2x damage and 40% chance to deal 3x damage.");
-            powerupsPerPickup = Config.Bind("general", "powerupsPerPickup", 1, "How many powerups you get each time you pick one up.");
+            powerupsPerPickup = Config.Bind("general", "powerupsPerPickup", 100, "How many powerups you get each time you pick one up.");
             
             guaranteeItem = Config.Bind("chests", "guaranteeItem", true, "Guarantees that an item is given from a chest even if all items in that tier is disabled. Does not work if all items are disabled.");
             chestSpawnAmount = Config.Bind("chests", "chestSpawnAmount", 10, "How many times chests try to spawn in each chunk.");
